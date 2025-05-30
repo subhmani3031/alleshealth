@@ -1,6 +1,6 @@
 # app.py
 import streamlit as st
-import FAISS
+import faiss
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.document_loaders import CSVLoader, JSONLoader
 from langchain_community.llms import HuggingFaceHub
